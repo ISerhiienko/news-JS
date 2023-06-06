@@ -2,11 +2,14 @@
   "compilerOptions": {
     "target": "es2016",
     "module": "commonjs",
-    "rootDir": "./src",
+    "outDir": "./dist/",
     "sourceMap": true, 
+    "allowJs": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitAny": true,
-  }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"],
 }
