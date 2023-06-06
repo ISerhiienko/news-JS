@@ -1,6 +1,6 @@
 import './sources.css';
 
-interface SourcesItem {
+export interface SourcesItem {
     category: string;
     country: string;
     description: string;
